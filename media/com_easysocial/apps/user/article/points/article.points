@@ -1,0 +1,38 @@
+[
+	{
+		"title"			: "Create Article",
+		"alias"			: "create-article",
+		"description"	: "Earn points when you create a new article on the site.",
+		"command"		: "create.article",
+		"extension"		: "com_content",
+		"state"			: true,
+		"points"		: 5
+	},
+	{
+		"title"			: "Deleted Article",
+		"alias"			: "deleted-article",
+		"description"	: "Demote points when you an article is deleted.",
+		"command"		: "delete.article",
+		"extension"		: "com_content",
+		"state"			: true,
+		"points"		: -5
+	},
+	{
+		"title"			: "Read Article",
+		"alias"			: "read-article",
+		"description"	: "Earn points when you read an article.",
+		"command"		: "read.article",
+		"extension"		: "com_content",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title"			: "Article Read by User",
+		"alias"			: "article-read-user",
+		"description"	: "Earn points when a user reads your article.",
+		"command"		: "author.read.article",
+		"extension"		: "com_content",
+		"state"			: true,
+		"points"		: 1
+	}
+]

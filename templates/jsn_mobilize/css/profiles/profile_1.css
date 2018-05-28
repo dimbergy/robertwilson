@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu ul.jsn-menu-mobile > li  { border:1px solid #333333; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu  { border:1px solid #333333; }
+
+#jsn-master .jsn-mobile-layout #jsn-menu{ background:#000000; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu ul.jsn-menu-mobile,#jsn_menu .mobilize-menu div.jsn-menu-mobile{ background:#262626; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu ul.jsn-menu-mobile > li > a{ font-family:Open Sans;font-style:inherit;color:#ffffff; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu ul.jsn-menu-mobile ul{ background:#1f1f1f; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu ul.jsn-menu-mobile ul li a{ font-family:Verdana;font-style:inherit;color:#ffffff; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu > li > span.active{ background:#262626; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu > li > ul > li.sub-menu-active{ background:#000000; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu > li > ul > li.sub-menu-active > ul li.current{  }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu > li > span.jsn-menu-toggle i { color:#ffffff;
+background-image: url('/demo/joomla-templates/jsn_blank/j30/pro/media/jui/img/glyphicons-halflings-white.png');
+color:#ffffff; }
+#jsn-master .jsn-mobile-layout #jsn-mobile-tool { background:#ffffff;box-shadow:rgba(255,255,255,0.5);webkit-box-shadow:rgba(255,255,255,0.5); }
+#jsn-master .jsn-mobile-layout #jsn-mobile-tool .jsn-modulecontainer{ background:#ffffff;background:#ffffff;margin-left:5px;margin-right:5px;margin-bottom:15px;margin-top:15px;padding-left:15px;padding-right:15px;padding-bottom:10px;padding-top:10px; }
+#jsn-master .jsn-mobile-layout #jsn-content-top { background:#5eb295; }
+#jsn-master .jsn-mobile-layout #jsn-content-top .jsn-modulecontainer{ background:#5eb295;background:#5eb295;margin-left:5px;margin-right:5px;margin-bottom:15px;margin-top:15px; }
+#jsn-master .jsn-mobile-layout #jsn-content-top { background:#5eb295; }
+#jsn-master .jsn-mobile-layout #jsn-content-top .jsn-modulecontainer{ background:#5eb295;background:#5eb295;margin-left:5px;margin-right:5px;margin-bottom:15px;margin-top:15px; }
+#jsn-master .jsn-mobile-layout #jsn-mainbody { background:#ffffff;padding-left:10px;padding-right:10px;padding-bottom:10px;padding-top:10px;box-shadow:rgba(255,255,255,0.5);webkit-box-shadow:rgba(255,255,255,0.5); }
+#jsn-master .jsn-mobile-layout #jsn-mainbody { font-family:Verdana;font-style:inherit;color:#000000; }
+#jsn-master .jsn-mobile-layout #jsn-mainbody h1, #jsn-master .jsn-mobile-layout #jsn-mainbody h2, #jsn-master .jsn-mobile-layout #jsn-mainbody h3, #jsn-master .jsn-mobile-layout #jsn-mainbody h4, #jsn-master .jsn-mobile-layout #jsn-mainbody h5, #jsn-master .jsn-mobile-layout #jsn-mainbody h6{ font-family:Verdana;font-size:20px;font-style:inherit;color:#000000;!important}
+#jsn-master .jsn-mobile-layout #jsn-mainbody a {  }
+#jsn-master .jsn-mobile-layout #jsn-user-top { background:#ffffff; }
+#jsn-master .jsn-mobile-layout #jsn-user-bottom { background:#ffffff; }
+#jsn-master .jsn-mobile-layout #jsn-user-bottom .jsn-modulecontainer{ background:#3d4651;background:#3d4651;margin-left:5px;margin-right:5px;margin-bottom:15px;margin-top:15px;padding-left:15px;padding-right:15px;padding-bottom:10px;padding-top:10px; }
+#jsn-master .jsn-mobile-layout #jsn-content-bottom { background:#cd471a; }
+#jsn-master .jsn-mobile-layout #jsn-content-bottom .jsn-modulecontainer{ background:#cd471a;background:#cd471a;margin-left:5px;margin-right:5px;margin-bottom:15px;margin-top:15px; }
+#jsn-master .jsn-mobile-layout #jsn-footer { background:#ffffff; }
+#jsn-master .jsn-mobile-layout #jsn-footer .jsn-modulecontainer{ padding-left:5px;padding-right:5px; }
+#jsn-master .jsn-mobile-layout #jsn-switcher{ background:#000000;padding-bottom:10px;padding-top:10px; }

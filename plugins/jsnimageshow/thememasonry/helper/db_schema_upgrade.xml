@@ -1,0 +1,41 @@
+<product name="Theme Masonry" type="plugin">
+	<version number="1.0.0">
+		<release_date>17/6/2015</release_date>
+		<tables>
+			<table id="1" status="ADDED" name="#__imageshow_theme_masonry">
+				<field id="1" status="ADDED" name="theme_id" type="int(11) unsigned" primary_key="yes"/>
+				<field id="2" status="ADDED" name="image_border" type="varchar(150)"/>
+				<field id="3" status="ADDED" name="image_rounded_corner" type="varchar(150)"/>
+				<field id="4" status="ADDED" name="image_border_color" type="varchar(150)"/>
+				<field id="5" status="ADDED" name="image_click_action" type="varchar(150)"/>
+				<field id="6" status="ADDED" name="open_link_in" type="varchar(150)"/>
+				<field id="7" status="ADDED" name="image_source" type="varchar(150)"/>
+				<field id="8" status="ADDED" name="show_caption" type="varchar(150)"/>
+				<field id="9" status="ADDED" name="caption_background_color" type="varchar(150)"/>
+				<field id="10" status="ADDED" name="caption_opacity" type="varchar(150)"/>
+				<field id="11" status="ADDED" name="caption_show_title" type="varchar(150)"/>
+				<field id="12" status="ADDED" name="caption_title_css" type="text"/>
+				<field id="13" status="ADDED" name="caption_show_description" type="varchar(150)"/>
+				<field id="14" status="ADDED" name="caption_description_css" type="text"/>
+				<field id="15" status="ADDED" name="caption_description_length_limitation" type="varchar(150)"/>
+				<field id="16" status="ADDED" name="layout_type" type="varchar(150)"/>
+				<field id="17" status="ADDED" name="column_width" type="varchar(150)"/>
+				<field id="18" status="ADDED" name="gutter" type="varchar(150)"/>
+				<field id="19" status="ADDED" name="is_fit_width" type="varchar(150)"/>
+				<field id="20" status="ADDED" name="transition_duration" type="varchar(150)"/>
+				<field id="21" status="ADDED" name="feature_image" type="varchar(150)"/>
+				<field id="22" status="ADDED" name="pagination_type" type="varchar(150)"/>
+				<field id="23" status="ADDED" name="number_load_image" type="varchar(150)"/>
+			</table>
+		</tables>
+	</version>
+	<version number="1.0.1">
+		<release_date>16/02/2016</release_date>
+		<tables>
+			<table id="1" status="CHANGED" name="#__imageshow_theme_masonry">
+				<field id="24" status="ADDED" name="pagination_type" type="char(150)" not_null="yes" default_value="all"/>										
+				<field id="25" status="ADDED" name="number_load_image" type="char(150)" not_null="yes" default_value="6"/>
+			</table>							
+		</tables>
+	</version>	
+</product>

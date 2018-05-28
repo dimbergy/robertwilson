@@ -1,0 +1,174 @@
+<product name="Theme Classic" type="plugin">
+	<version number="1.0.0">
+		<release_date>5/6/2011</release_date>
+		<tables>
+			<table id="1" status="ADDED" name="#__imageshow_theme_classic">
+				<field id="1" status="ADDED" name="theme_id" type="int(11) unsigned" primary_key="yes"/>							
+				<field id="2" status="ADDED" name="imgpanel_presentation_mode" type="char(30)"/>							
+				<field id="3" status="ADDED" name="imgpanel_img_transition_type_fit" type="char(30)"/>
+				<field id="4" status="ADDED" name="imgpanel_img_transition_timing_fit" type="char(50)"/>				
+				<field id="5" status="ADDED" name="imgpanel_img_click_action_fit" type="char(30)"/>
+				<field id="6" status="ADDED" name="imgpanel_img_transition_type_expand" type="char(50)"/>
+				<field id="7" status="ADDED" name="imgpanel_img_transition_timing_expand" type="char(255)"/>				
+				<field id="8" status="ADDED" name="imgpanel_img_motion_type_expand" type="char(30)"/>
+				<field id="9" status="ADDED" name="imgpanel_img_motion_timing_expand" type="char(50)"/>
+				<field id="10" status="ADDED" name="imgpanel_img_click_action_expand" type="char(30)"/>				
+				<field id="11" status="ADDED" name="imgpanel_bg_type" type="char(30)"/>
+				<field id="12" status="ADDED" name="imgpanel_bg_value" type="char(255)"/>
+				<field id="13" status="ADDED" name="imgpanel_show_watermark" type="tinyint(1)"/>			
+				<field id="14" status="ADDED" name="imgpanel_watermark_path" type="char(255)"/>
+				<field id="15" status="ADDED" name="imgpanel_watermark_position" type="char(30)"/>
+				<field id="16" status="ADDED" name="imgpanel_watermark_offset" type="char(30)"/>				
+				<field id="17" status="ADDED" name="imgpanel_watermark_opacity" type="char(30)"/>
+				<field id="18" status="ADDED" name="imgpanel_show_overlay_effect" type="tinyint(1)"/>
+				<field id="19" status="ADDED" name="imgpanel_overlay_effect_type" type="char(30)"/>								
+				<field id="20" status="ADDED" name="imgpanel_show_inner_shawdow" type="tinyint(1)"/>
+				<field id="21" status="ADDED" name="imgpanel_inner_shawdow_color" type="char(30)"/>	
+				<field id="22" status="ADDED" name="thumbpanel_show_panel" type="char(30)"/>
+				<field id="23" status="ADDED" name="thumbpanel_panel_position" type="char(30)"/>				
+				<field id="24" status="ADDED" name="thumbpanel_collapsible_position" type="tinyint(1)"/>
+				<field id="25" status="ADDED" name="thumbpanel_thumb_browsing_mode" type="char(30)"/>
+				<field id="26" status="ADDED" name="thumbpanel_show_thumb_status" type="tinyint(1)"/>			
+				<field id="27" status="ADDED" name="thumbpanel_active_state_color" type="char(30)"/>
+				<field id="28" status="ADDED" name="thumbpanel_presentation_mode" type="char(30)"/>
+				<field id="29" status="ADDED" name="thumbpanel_border" type="char(30)"/>				
+				<field id="30" status="ADDED" name="thumbpanel_enable_big_thumb" type="tinyint(1)"/>
+				<field id="31" status="ADDED" name="thumbpanel_big_thumb_size" type="char(30)"/>
+				<field id="32" status="ADDED" name="thumbpanel_thumb_row" type="char(30)"/>					
+				<field id="33" status="ADDED" name="thumbpanel_thumb_width" type="char(30)"/>
+				<field id="34" status="ADDED" name="thumbpanel_thumb_height" type="char(30)"/>
+				<field id="35" status="ADDED" name="thumbpanel_big_thumb_color" type="char(30)"/>
+				<field id="36" status="ADDED" name="thumbpanel_thumb_border" type="char(30)"/>
+				<field id="37" status="ADDED" name="thumbpanel_thumnail_panel_color" type="char(30)"/>
+				<field id="38" status="ADDED" name="thumbpanel_thumnail_normal_state" type="char(30)"/>								
+				<field id="39" status="ADDED" name="infopanel_panel_position" type="char(30)"/>
+				<field id="40" status="ADDED" name="infopanel_presentation" type="char(30)"/>
+				<field id="41" status="ADDED" name="infopanel_bg_color_fill" type="char(30)"/>				
+				<field id="42" status="ADDED" name="infopanel_panel_click_action" type="char(30)"/>
+				<field id="43" status="ADDED" name="infopanel_show_title" type="char(30)"/>
+				<field id="44" status="ADDED" name="infopanel_title_css" type="char(30)"/>				
+				<field id="45" status="ADDED" name="infopanel_show_des" type="tinyint(1)"/>			
+				<field id="46" status="ADDED" name="infopanel_des_lenght_limitation" type="char(30)"/>	
+				<field id="47" status="ADDED" name="infopanel_des_css" type="char(30)"/>				
+				<field id="48" status="ADDED" name="infopanel_show_link" type="tinyint(1)"/>
+				<field id="49" status="ADDED" name="infopanel_link_css" type="char(250)"/>				
+				<field id="50" status="ADDED" name="toolbarpanel_panel_position" type="char(30)"/>
+				<field id="51" status="ADDED" name="toolbarpanel_presentation" type="char(30)"/>
+				<field id="52" status="ADDED" name="toolbarpanel_show_image_navigation" type="tinyint(1)"/>
+				<field id="53" status="ADDED" name="toolbarpanel_slideshow_player" type="tinyint(1)"/>				
+				<field id="54" status="ADDED" name="toolbarpanel_show_fullscreen_switcher" type="tinyint(1)"/>
+ 				<field id="55" status="ADDED" name="toolbarpanel_show_tooltip" type="tinyint(1)"/>					
+				<field id="56" status="ADDED" name="slideshow_show_thumb_panel" type="char(30)"/>
+				<field id="57" status="ADDED" name="slideshow_show_overlay_effect" type="tinyint(1)"/>		
+				<field id="58" status="ADDED" name="slideshow_slide_timing" type="char(50)"/>	
+				<field id="59" status="ADDED" name="slideshow_show_image_navigation" type="tinyint(1)"/>	
+				<field id="60" status="ADDED" name="slideshow_process" type="tinyint(1)"/>					
+				<field id="61" status="ADDED" name="slideshow_show_watermark" type="tinyint(1)"/>	
+				<field id="62" status="ADDED" name="slideshow_show_status" type="tinyint(1)"/>	
+				<field id="63" status="ADDED" name="slideshow_enable_ken_burn_effect" type="tinyint(1)"/>					
+				<field id="64" status="ADDED" name="slideshow_presentation_mode" type="char(30)"/>	
+				<field id="65" status="ADDED" name="slideshow_looping" type="tinyint(1)"/>
+			</table>							
+		</tables>
+	</version>
+	<version number="1.1.0">
+		<release_date>5/6/2011</release_date>
+		<tables>
+			<table id="1" status="CHANGED" name="#__imageshow_theme_classic">
+				<field id="4" status="REMOVED" name="imgpanel_img_transition_timing_fit"/>
+				<field id="7" status="REMOVED" name="imgpanel_img_transition_timing_expand"/>
+				<field id="9" status="REMOVED" name="imgpanel_img_motion_timing_expand"/>
+				<field id="57" status="REMOVED" name="slideshow_show_overlay_effect"/>
+				<field id="61" status="REMOVED" name="slideshow_show_watermark"/>
+				<field id="64" status="REMOVED" name="slideshow_presentation_mode"/>
+				<field id="56" status="REMOVED" name="slideshow_show_thumb_panel"/>
+				<field id="59" status="REMOVED" name="slideshow_show_image_navigation"/>	
+				<field id="66" status="ADDED" name="imgpanel_img_open_link_in_fit" type="char(30)" not_null="yes" default_value="new-browser"/>
+				<field id="67" status="ADDED" name="imgpanel_img_open_link_in_expand" type="char(30)" not_null="yes" default_value="new-browser"/>
+				<field id="68" status="ADDED" name="infopanel_open_link_in" type="char(30)" not_null="yes" default_value="new-browser"/>
+				<field id="69" status="ADDED" name="slideshow_hide_thumb_panel" type="char(30)" not_null="yes" default_value="yes"/>
+				<field id="70" status="ADDED" name="slideshow_hide_image_navigation" type="char(30)" not_null="yes" default_value="yes"/>
+				<field id="71" status="ADDED" name="thumbpanel_thumb_opacity" type="char(30)" not_null="yes" default_value="50"/>
+				<field id="22" status="CHANGED" name="thumbpanel_show_panel" type="char(30)" not_null="yes" default_value="auto">
+					<data oldvalue="0" newvalue="off"/>
+					<data oldvalue="1" newvalue="on"/>
+				</field>
+				<field id="13" status="CHANGED" name="imgpanel_show_watermark" type="char(30)" not_null="yes" default_value="no">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>
+				<field id="20" status="CHANGED" name="imgpanel_show_inner_shawdow" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>
+				<field id="24" status="CHANGED" name="thumbpanel_collapsible_position" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>
+				<field id="26" status="CHANGED" name="thumbpanel_show_thumb_status" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>		
+				<field id="30" status="CHANGED" name="thumbpanel_enable_big_thumb" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>	
+				<field id="43" status="CHANGED" name="infopanel_show_title" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>	
+				<field id="45" status="CHANGED" name="infopanel_show_des" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>		
+				<field id="48" status="CHANGED" name="infopanel_show_link" type="char(30)" not_null="yes" default_value="no">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>	
+				<field id="52" status="CHANGED" name="toolbarpanel_show_image_navigation" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>
+				<field id="53" status="CHANGED" name="toolbarpanel_slideshow_player" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>				
+				<field id="54" status="CHANGED" name="toolbarpanel_show_fullscreen_switcher" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>
+				<field id="55" status="CHANGED" name="toolbarpanel_show_tooltip" type="char(30)" not_null="yes" default_value="no">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>									
+				<field id="60" status="CHANGED" name="slideshow_auto_play" type="char(30)" not_null="yes" default_value="no">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>	
+				<field id="62" status="CHANGED" name="slideshow_show_status" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>	
+				<field id="63" status="CHANGED" name="slideshow_enable_ken_burn_effect" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>	
+				<field id="65" status="CHANGED" name="slideshow_looping" type="char(30)" not_null="yes" default_value="yes">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>			
+				<field id="11" status="CHANGED" name="imgpanel_bg_type" type="char(30)" not_null="yes" default_value="linear-gradient">	
+					<data oldvalue="1" newvalue="solid-color"/>
+					<data oldvalue="2" newvalue="linear-gradient"/>
+					<data oldvalue="3" newvalue="radial-gradient"/>
+					<data oldvalue="4" newvalue="pattern"/>
+					<data oldvalue="5" newvalue="image"/>
+				</field>							
+				<field id="18" status="CHANGED" name="imgpanel_show_overlay_effect" type="char(30)" not_null="yes" default_value="no">	
+					<data oldvalue="0" newvalue="no"/>
+					<data oldvalue="1" newvalue="yes"/>
+				</field>					
+			</table>
+		</tables>
+	</version>		
+</product>

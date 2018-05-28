@@ -1,0 +1,129 @@
+<html>
+<head>
+	<title>JSNImageSlider</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="lib/jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" href="lib/animate/animate.css">
+	<link rel="stylesheet" href="css/flex.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="app">
+
+	<div id="slider" class="slider-wrapper">
+		<div class="panel panel-default flex flex-layout flex-vertical slider-inspector hidden">
+			<div class="panel-body flex-flexible">
+				<div class="input-layout">
+					<div class="input-slot-2">
+						<label>font:</label>
+						<select data-bind="style.fontFamily">
+							<option>Arial</option>
+							<option>Arial Black</option>
+							<option>Helvetica Neue</option>
+							<option>Avenir</option>
+							<option>Times</option>
+							<option>Menlo</option>
+						</select>
+					</div>
+					<div class="input-slot">
+						<label>size:</label>
+						<input type="number" data-bind="style.fontSize">
+					</div>
+					<div class="input-slot">
+						<label>color:</label>
+						<input type="text" data-bind="style.color">
+					</div>
+				</div>
+				<div class="input-layout">
+					<div class="input-slot">
+						<label>X:</label>
+						<input type="number" data-bind="style.left" disabled>
+					</div>
+					<div class="input-slot">
+						<label>Y:</label>
+						<input type="number" data-bind="style.top" disabled>
+					</div>
+					<div class="input-slot">
+						<label>W:</label>
+						<input type="number" data-bind="style.width" disabled>
+					</div>
+					<div class="input-slot">
+						<label>H:</label>
+						<input type="number" data-bind="style.height" disabled>
+					</div>
+					<!--<div class="input-slot-2">-->
+						<!--<label>padding:</label>-->
+						<!--<input type="text" data-bind="style.padding">-->
+					<!--</div>-->
+					<!--<div class="input-slot-2">-->
+						<!--<label>border:</label>-->
+						<!--<input type="text" data-bind="style.border">-->
+					<!--</div>-->
+				</div>
+			</div>
+		</div>
+		<div class="slider-layout flex flex-layout flex-vertical">
+			<div class="slider-panel flex-flexible flex flex-vertical">
+				<div class="slider-slides"></div>
+			</div>
+			<div class="slider-panel flex">
+				<div class="slider-thumbs"></div>
+				<div class="slider-toolbar">
+					<button class="slider-thumb create-slide-btn">
+						<span class="fa fa-plus"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<script type="text/html" id="slider-thumb-template">
+		<div class="slider-thumb-index">
+			<% print(index+1) %>
+		</div>
+	</script>
+	<script type="text/html" id="slider-slide-template">
+		<div class="slider-canvas">
+		</div>
+		<div class="slider-toolbar">
+			<button class="add-element">Add Element</button>
+		</div>
+		<div class="slider-layers">
+			<div class="slider-layer"></div>
+		</div>
+	</script>
+	<script type="text/html" id="slider-item-template">
+		<div class="slider-item-content" contenteditable="true">
+			<% print(text); %>
+		</div>
+	</script>
+	
+
+	<script type="text/html" id="item-template">
+		<div class="item-box">
+			<span class="item-content" contenteditable="true" tabindex="1">
+				<%=content%>
+			</span>
+		</div>
+	</script>
+
+	<!-- 3rd party libraries -->
+	<script src="lib/underscore/underscore.js"></script>
+	<script src="lib/jquery/jquery.js"></script>
+	<script src="lib/jquery-ui/jquery-ui.js"></script>
+	<script src="lib/jquery-ui/jquery-ui.touch-punch.js"></script>
+	<script src="lib/backbone/backbone.js"></script>
+	<script src="lib/backbone/backbone-nested-models.js"></script>
+	<script src="lib/backbone/backbone.undo.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.js"></script>
+
+	<!-- Application files -->
+	<script src="js/plugins.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

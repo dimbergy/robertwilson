@@ -1,0 +1,2 @@
+
+FD31.component("EasySocial", {"environment":"optimized","source":"local","mode":"uncompressed","baseUrl":"http:\/\/rc.joomlashine.com\/demo\/joomla-templates\/jsn_corsa\/j25\/pro\/index.php?option=com_easysocial&lang=none","version":"1.1.3"});

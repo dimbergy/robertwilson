@@ -1,0 +1,10 @@
+.jsn-master #imageForm .well .row .pull-right > button
+{
+    display: none;
+}
+
+.jsn-master #imageForm .well:last-child .row:nth-child(1) .control-group:nth-child(2),
+.jsn-master #imageForm .well:last-child .row:nth-child(2),
+.jsn-master #imageForm .well:last-child .row:nth-child(3) {
+	display:none
+}

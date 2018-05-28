@@ -1,0 +1,1 @@
+UPDATE `#__jsn_mobilize_os` SET `os_value`='{"ios":["8",">"]}',`os_title`='iOS 8.x and above' WHERE `os_id`=12;

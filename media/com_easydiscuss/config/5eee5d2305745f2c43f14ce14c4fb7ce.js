@@ -1,0 +1,1 @@
+FD31.component("EasyDiscuss", {"environment":"static","source":"local","mode":"compressed","baseUrl":"http:\/\/rc.joomlashine.com\/demo\/joomla-templates\/jsn_corsa\/j25\/pro\/administrator\/index.php?option=com_easydiscuss&lang=none","version":"3.2.9248","scriptVersioning":false,"responsive":false});

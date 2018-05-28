@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="search" method="upgrade">
+	<name>Search - Ohanah</name>
+	<author>Beyounic SA</author>
+    <creationDate>2011-12-21</creationDate>
+	<copyright>(C) 2011 Beyounic SA. All rights reserved.</copyright>
+	<license>GNU GPLv3</license>
+	<authoremail>info@beyounic.com</authoremail>
+    <authorurl>app.ohanah.com</authorurl>
+    <version>1.0</version>
+	<description>Search Ohanah events</description>
+	<files>
+		<filename plugin="ohanah">ohanah.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="search_limit" type="text" size="5" default="50" label="Search Limit" description="Number of Search items to return"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

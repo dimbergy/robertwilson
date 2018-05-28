@@ -1,0 +1,33 @@
+[
+	{
+		"title"		: "Profile View",
+		"desc"		: "Define how the articles should behave when displayed on the user's profile area.",
+		"fields"	:
+		[
+			{
+				"label"		: "Total Articles",
+				"tooltip"	: "Specify the number of articles to appear on the profile view.",
+				"name"		: "total",
+				"class"		: "input-mini center",
+				"type"		: "text",
+				"default"	: 5
+			},
+			{
+				"label"		: "Article Title Length",
+				"tooltip"	: "Specify the number of characters for the title of each article",
+				"name"		: "title_length",
+				"class"		: "input-mini center",
+				"type"		: "text",
+				"default"	: 50
+			},
+			{
+				"label"		: "Article Content Length",
+				"tooltip"	: "Specify the number of characters for the content of each article. Set this to 0 if you would like to disable truncation",
+				"name"		: "content_length",
+				"class"		: "input-mini center",
+				"type"		: "text",
+				"default"	: 350
+			}
+		]
+	}
+]

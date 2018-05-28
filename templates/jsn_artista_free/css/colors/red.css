@@ -1,0 +1,122 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+a {
+	color: #bf0000;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - OVERALL PAGE =============== */
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- ACTION LINK ----- */
+.link-action {
+	border-bottom: 1px solid #bf0000;
+}
+.link-action:hover {
+	background-color: #bf0000;
+}
+/* =============== TYPOGRAPHY - TABLE STYLES =============== */
+/* ----- COLOR HEADER TABLE ----- */
+table.style-colorheader thead th {
+	background-color: #9B2626;
+	border-right: 1px groove #D24D4D;
+}
+/* ----- COLOR STRIPES TABLE ----- */
+table.style-colorstripes td,
+table.style-colorstripes th {
+	border-bottom: 1px solid #D14949;
+	border-right: 1px groove #D14949;
+}
+table.style-colorstripes thead th {
+	background-color: #7D1F1F;
+}
+table.style-colorstripes thead th.highlight {
+	background-color: #B52D2D;
+}
+table.style-colorstripes tbody tr {
+	background-color: #B52D2D;
+}
+table.style-colorstripes tbody .highlight {
+	background-color: #F8E4E4;
+}
+table.style-colorstripes tbody tr.odd {
+	background-color: #9B2626;
+}
+table.style-colorstripes tbody tr.odd .highlight {
+	background-color: #F1C9C9;
+}
+table.style-colorstripes tbody tr:hover th,
+table.style-colorstripes tbody tr:hover td {
+	background-color: #8A2222;
+}
+table.style-colorstripes tbody tr:hover .highlight {
+	background-color: #EDB8B8;
+}
+table.style-colorstripes tbody td,
+table.style-colorstripes tbody th {
+	border-left: none;
+	border-right: 1px solid #D14949;
+}
+table.style-colorstripes tfoot th,
+table.style-colorstripes tfoot td {
+	background-color: #7D1F1F;
+}
+.sectiontableheader {
+	background-color: #993636;
+}
+/* ----- GREY STRIPES TABLE ----- */
+table.style-greystripes thead th.highlight {
+	background-color: #9B2626;
+}
+/* ============================== MENU ============================== */
+/* =============== MENU - MAIN MENU =============== */
+/* ----- HOVER STATE ----- */
+div.jsn-modulecontainer ul.menu-mainmenu ul li:hover > a,
+div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
+	background-color: #f5f5f5;
+}
+/* ----- ACTIVE STATE ----- */
+/* =============== MENU - TREE MENU =============== */
+/* ----- CURRENT / HOVER STATE ----- */
+div.richbox-2 ul.menu-treemenu li a:hover,
+div.richbox-2 ul.menu-treemenu li a.current {
+	background-color: #731A1A;
+}
+/* =============== MENU - SIDE MENU =============== */
+/* ----- HOVER STATE IN SPECIFIC MODULE BOXES ----- */
+div.richbox-2 ul.menu-sidemenu > li:hover > a {
+	color: #731A1A;
+}
+div.lightbox-2 ul.menu-sidemenu > li:hover > a,
+div.jsn-modulecontainer ul.menu-sidemenu li:hover > a {
+	color: #FF3A47;
+}
+/* ----- ACTIVE STATE IN SPECIFIC MODULE BOXES ----- */
+div.richbox-2 ul.menu-sidemenu > li.active > a {
+	color: #731A1A;
+}
+div.lightbox-2 ul.menu-sidemenu > li.active > a,
+div.jsn-modulecontainer ul.menu-sidemenu li.active > a {
+	color: #FF3A47;
+}
+/* ============================== SITE TOOLS ============================== */
+/* =============== SITE TOOLS - GENERAL PRESENTATION =============== */
+/* ============================== MODULE STYLES ============================== */
+/* =============== MODULE STYLES - MODULE BOXES =============== */
+div.richbox-1 div.jsn-modulecontainer_inner {
+	background-color: #f9524f;
+}
+/* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== */
+/* =============== JOOMLA! EXTENSIONS - MOD_SEARCH =============== */
+#jsn-pos-top div.search input#mod_search_searchword {
+	border: 1px solid #732828;
+}
+/* =============== JOOMLA! EXTENSIONS - COM_CONTENT =============== */
+/* ----- SECTION / CATEGORY BLOG LAYOUT ----- */
+/* PAGE PAGINATION */
+ul.jsn-pagination li.navigation-page span {
+	background-color: #9B2626;
+}

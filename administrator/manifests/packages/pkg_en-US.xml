@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+<name>English en-US Language Pack</name>
+<packagename>en-US</packagename>
+<version>2.5.10.1</version>
+<url></url>
+<packager></packager>
+<packagerurl></packagerurl>
+<description>2.5.10.1 Joomla! English (USA) Language Package</description>
+<files>
+        <file type="language" client="administrator" id="en-US">admin_en-US.zip</file>
+        <file type="language" client="site" id="en-US">site_en-US.zip</file>
+</files>
+<updateservers>
+<server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist.xml</server>
+</updateservers>
+</extension>

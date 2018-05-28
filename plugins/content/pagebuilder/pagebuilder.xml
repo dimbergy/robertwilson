@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content"  method="upgrade">
+    <name>JSN PageBuilder Plugin Content</name>		
+    <version>1.3.3</version>	
+    <creationDate>11/15/2016</creationDate>
+    <author>JoomlaShine.com</author>
+    <authorEmail>admin@joomlashine.com</authorEmail>
+    <authorUrl>www.joomlashine.com</authorUrl>
+    <copyright>Copyright (C) @JOOMLASHINECOPYRIGHTYEAR@ JoomlaShine.com. All Rights Reserved.</copyright>
+    <license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <description></description>
+    <files>
+	<filename plugin="pagebuilder">pagebuilder.php</filename>
+	<filename>index.html</filename>
+    </files>
+    <config />
+</extension>

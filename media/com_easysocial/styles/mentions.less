@@ -1,0 +1,190 @@
+@import("mentions/default");
+
+.mentions-textfield.for-styleguide {
+	// You should define your own set of css properties
+	// that emulates the appearance of a textarea.
+	width: 450px;
+	padding: 5px;
+	border: 1px solid #ccc;
+
+	.mentions > div {
+		color: green;
+		min-height: 16px;
+		-ms-text-autospace: none;
+	}
+}
+
+.mentions-textfield {
+
+	.mentions > div {
+		color: white;
+		// color: red;
+		// background: @esMentionsBackground;
+		// background: red;
+		// min-height: 16px;
+		// -ms-text-autospace: none;
+		span {
+			background: @esMentionsBackground;
+		}
+	}
+}
+
+&.mentions-autocomplete {
+	position: absolute;
+	z-index: 99999;
+	margin-top: 8px;
+	overflow: hidden; // to clip drop shadow
+	padding-bottom: 5px; // to allow menu drop shadow
+
+
+	&.loading {
+		.mentions-autocomplete-loading {
+			display: block;
+		}
+
+		.mentions-menu {
+			display: none;
+		}
+	}
+
+	&.empty {
+		.mentions-autocomplete-empty {
+			display: block;
+		}
+		.mentions-menu {
+			display: none;
+		}
+
+		// Loading takes precendence
+		&.loading {
+			.mentions-autocomplete-empty {
+				display: none;
+			}
+		}
+	}
+
+	&.search {
+		.mentions-autocomplete-search {
+			display: block;
+		}
+		.mentions-menu {
+			display: none;
+		}
+		// Loading takes precendence
+		&.loading {
+			.mentions-autocomplete-search {
+				display: none;
+			}
+		}
+	}
+
+	.mentions-autocomplete-loading-indicator {
+		display: block;
+		padding: 8px 0px !important;
+		height: 16px;
+		background: url("@{media_uri}/../images/loading.gif") center center no-repeat;
+	}
+
+	> b {
+		position: absolute;
+		width: 100%;
+		left: 0px;
+		height: 1px;
+		padding: 0px 5px;
+		z-index: 2;
+		display: block;
+
+		> b {
+			height: 5px;
+			width: 100%;
+			margin-top: -5px;
+			box-shadow: @esStoryLocationBoxShadow;
+			display: block;
+		}
+	}
+
+	.mentions-autocomplete-inner {
+		border: 1px solid @esStoryBorder;
+		border-top: 0px;
+		.border-radius(~"0px 0px 3px 3px");
+		color: @esMentionsAutocompleteColor;
+		background: @esMentionsAutocompleteB;
+	    max-height: 160px;
+	    overflow-y: auto;
+	    margin: 1px 9px 0 10px; // weird 1px issue hence 9px
+		.box-shadow(0 3px 2px rgba(0,0,0,.15));
+		top: -160px;
+		// .transition(all .1s ease);
+		position: relative;
+		z-index: 1;
+
+		&.active {
+			top: 0px;
+		}
+	}
+
+	.mentions-menu { //ul
+		list-style: none !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		background: none !important;
+
+		.mentions-menuItem { //li
+			cursor: pointer;
+			padding: 6px;
+			text-align: left;
+			font-size: 13px;
+
+			+ .mentions-menuItem {
+				border-top: 1px solid #ddd;
+			}
+
+			&.active {
+				background: @esMentionsAutocompleteActiveB;
+			}
+
+			&.hidden {
+				display: none;
+			}
+
+			> img {
+				background: #fafafa;
+				float: left;
+				margin-right: 6px;
+				width: 16px;
+				height: 16px;
+				display: block;
+			}
+		}
+	}
+
+	.mentions-itemRemoveButton {
+	    position: absolute;
+	    height: 20px;
+	    padding: 0;
+	    right: 0;
+	    top: 0;
+	    width: 20px;
+	    opacity: 0.8;
+	    cursor: pointer;
+
+	    &:hover {
+	    	opacity: 1;
+	    }
+
+	    > i {
+		    width: 8px !important;
+		    height: 8px !important;
+		    font-size: 8px !important;
+		    margin: 4px 0 0 6px !important;
+		    line-height: 10px !important;
+	    }
+	}
+
+	.mentions-menu-avatar {
+		width: 16px;
+		height: 16px;
+		position: relative;
+	    top: 1px;
+	}
+}
